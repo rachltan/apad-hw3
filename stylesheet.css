@@ -1,0 +1,27 @@
+/* use a css selector to apply styles to html tag */
+h1 {
+    color:blueviolet
+}
+/* create 1 class, apply to 2 elements and style */
+/* applies to both h1 and h2 elements */
+.main-title {
+    text-align: center;
+}
+/* create 1 id apply to an element and style */
+/* change at least two box model properties */
+#about-me {
+    background-color: #f0f0f0;
+    padding: 20px; 
+    margin: 10px;
+}
+
+#hobbies {
+    background-color: pink;
+    padding: 20px;
+    margin: 10%;
+}
+
+/* css selector to change color of <a> on hover */
+a:hover {
+    color: purple;
+}
